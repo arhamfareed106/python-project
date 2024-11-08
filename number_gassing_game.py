@@ -12,6 +12,6 @@ while True:
             print("Too high")
         else:
             print('Congrats! You guessed it.')
-            break  # Exit the loop after guessing the correct number
+            break 
     except ValueError:
         print("Please enter a valid number")
